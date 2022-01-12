@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  margin: 1%;
+  padding: 0;
+  text-align: center;
+  overflow-y: hidden;
+  background-color: rgb(29, 29, 29);
+}
+
+table{
+  width: 90%;
+  table-layout: fixed;
+  border-collapse: collapse;
+  border: 1px solid rgba(12,12,12,0.1);
+  margin-left: 5%;
+  margin-right: 5%;
+}
+ 
+ .tbl-content{
+  height:300px;
+  overflow-x:auto;
+  margin-top: 0px;
+  border: 1px solid rgba(255,255,255,0.3);
+}
+
+th{
+  text-align: center;
+  background-color: #111;
+  border: 1px solid rgb(29, 29, 29);
+  color: white;
+}
+
+td{
+  text-align: center;
+  vertical-align:middle;
+  color: black;
+  border-bottom: solid 1px rgba(12,12,12,0.1);
+  background-color: rgb(255, 240, 240);
+}
+
+td a {
+  margin: 2%;
+}
+
+form {
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  color: black;
+}
+
+form input {
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(255, 240, 240);
+  margin: .2%;
+}
+
+form button {
+  margin-top: 2.5%;
+  width: 10vw;
+}
+
+.main {
+  width: 90%;
+  min-height: 20vh;
+  background-color: #111;
+  margin-left: 5%;
+  margin-right: 5%;
+  align-items: center;
+  border-radius: 10px;
+  color: white;
+}
+
+.h2 {
+  color: white;
+  margin-top: 3%;
+}
